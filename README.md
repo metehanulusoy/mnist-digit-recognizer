@@ -129,4 +129,4 @@ mnist-digit-recognizer/
 
 ## 👤 Yazar
 
-**Şefim** · Bilgisayar Mühendisliği 2. Sınıf
+**Metehan Ulusoy** · Bilgisayar Mühendisliği 2. Sınıf
