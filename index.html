@@ -358,7 +358,7 @@ async function predict() {
   }
 
   // Tensor oluştur → tahmin
-  const tensor = tf.tensor2d(grayscale, [1, 784]);
+  const tensor = tf.tensor4d(Array.from(grayscale), [1, 28, 28, 1]);
   const probs  = model.predict(tensor);
   const probsArr = await probs.data();
   tensor.dispose();
